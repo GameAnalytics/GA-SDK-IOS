@@ -5,7 +5,7 @@ GameAnalytics native iOS SDK.
 
 Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 
-Read more about our launch of the new events (V2) [here](www.gameanalytics.com/update/).
+Read more about our launch of the new events (V2) [here](http://www.gameanalytics.com/update/).
 
 Changelog
 ---------
