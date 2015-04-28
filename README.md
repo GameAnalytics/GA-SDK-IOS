@@ -13,9 +13,9 @@ Changelog
 **2.0.0**
 * redesigned iOS SDK for V2 api
 * progression event
-* validated purchase
+* validated business event
 * resource event
-* custom  dimensions
+* custom dimensions
 
 <!--
 Install Cocoapods
