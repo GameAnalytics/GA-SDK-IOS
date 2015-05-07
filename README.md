@@ -11,11 +11,7 @@ Changelog
 ---------
 
 **2.0.1**
-* fix for business event receipt rejection in some cases
-* tweaked local db size trimming
-
-**2.0.0**
-* redesigned iOS SDK for V2 api
+* iOS SDK for V2 api
 * progression event
 * validated business event
 * resource event
