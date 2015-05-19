@@ -9,6 +9,8 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.0.2**
+* fixed a bug for iOS6.x devices
 
 **2.0.1**
 * iOS SDK for V2 api
