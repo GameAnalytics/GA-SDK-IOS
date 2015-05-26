@@ -9,8 +9,12 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.0.3**
+* fixed an issue with going-to-background on iOS6
+* fixed birthyear value
+
 **2.0.2**
-* fixed a bug for iOS6.x devices
+* fixed a bug for iOS6
 
 **2.0.1**
 * iOS SDK for V2 api
