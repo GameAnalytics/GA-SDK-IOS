@@ -11,7 +11,7 @@ Changelog
 ---------
 **2.0.3**
 * fixed an issue with going-to-background on iOS6
-* fixed birthyear value
+* fixed submit of birthyear value
 
 **2.0.2**
 * fixed a bug for iOS6
