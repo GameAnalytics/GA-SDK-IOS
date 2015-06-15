@@ -9,7 +9,7 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 > :information_source:
 > Requirements:<br/>
-> iOS: iOS 6.x and up
+> **iOS:** iOS 6.x and up
 
 Changelog
 ---------
