@@ -8,7 +8,7 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Read more about our launch of the new events (V2) [here](http://www.gameanalytics.com/update/).
 
 > :information_source:
-> GameAnalytics is working in iOS 6.x and later versions.
+> GameAnalytics is supported from iOS 6.x and up.
 
 Changelog
 ---------
