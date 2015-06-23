@@ -9,6 +9,9 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.0.4**
+* increased allowed character count to 64 for many parameters
+
 **2.0.3**
 * fixed an issue with going-to-background on iOS6
 * fixed submit of birthyear value
