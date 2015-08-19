@@ -13,6 +13,9 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.0.5**
+* use HTTPS as required by iOS9
+
 **2.0.4**
 * increased allowed character count to 64 for many parameters
 
