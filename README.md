@@ -13,6 +13,10 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.0.6**
+* built library with Xcode7 (iOS 9.0)
+* minor tweaks
+
 **2.0.5**
 * use HTTPS as required by iOS9
 
