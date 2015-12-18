@@ -13,6 +13,11 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.0.8**
+* altered code to support Fabric tool
+* added Framework
+* updated podspec file to use Framework
+
 **2.0.7**
 * built library with Xcode7 (iOS 9.0)
 * minor tweaks
