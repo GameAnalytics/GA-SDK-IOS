@@ -13,6 +13,9 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.0.9**
+* removed unnecessary files
+
 **2.0.8**
 * altered code to support Fabric tool
 * added Framework
