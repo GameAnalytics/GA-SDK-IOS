@@ -13,6 +13,12 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.1.0**
+* altered jailbreak check causing ios9 warning
+* library / framework now compiled with bitcode
+* alternative non-bitcode library (Xcode6) added
+* restructuring to prepare for tvOS
+
 **2.0.9**
 * removed unnecessary files
 
