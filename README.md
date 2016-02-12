@@ -53,7 +53,7 @@ Changelog
 * custom dimensions
 
 <!--
-Install Cocoapods
+Install CocoaPods
 ==========
 sudo gem update --system
 sudo gem install cocoapods
