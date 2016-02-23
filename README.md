@@ -56,15 +56,3 @@ Changelog
 * resource event
 * custom dimensions
 
-<!--
-Install Cocoapods
-==========
-sudo gem update --system
-sudo gem install cocoapods
-pod setup
-
-Install Podfile dependencies
-==========
-(terminal in project dir where Podfile is)
-pod install
--->
