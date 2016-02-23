@@ -13,6 +13,10 @@ Read more about our launch of the new events (V2) [here](http://www.gameanalytic
 
 Changelog
 ---------
+**2.2.0**
+* feature for using a custom user id
+* fix testflight issue with user id generation
+
 **2.1.0**
 * altered jailbreak check causing ios9 warning
 * library / framework now compiled with bitcode
