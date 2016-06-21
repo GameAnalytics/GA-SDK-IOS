@@ -11,6 +11,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 
 Changelog
 ---------
+**2.2.1**
+* fixed validator to allow 'cocos2d' as sdk wrapper
+
 **2.2.0**
 * feature for using a custom user id
 * fix testflight issue with user id generation

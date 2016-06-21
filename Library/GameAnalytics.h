@@ -359,7 +359,7 @@ typedef enum GAErrorSeverity : NSInteger {
  @param amount
     Amount sourced or sinked
  @param itemType
-    One of the available currencies set in configureAvailableResourceItemTypes
+    One of the available items set in configureAvailableResourceItemTypes
  @param itemId
     Item id (string max length=32)
  
