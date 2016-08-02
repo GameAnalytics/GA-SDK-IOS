@@ -11,6 +11,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 
 Changelog
 ---------
+**2.2.2**
+* added option for manual session handling
+
 **2.2.1**
 * fixed validator to allow 'cocos2d' as sdk wrapper
 
