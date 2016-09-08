@@ -11,6 +11,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 
 Changelog
 ---------
+**2.2.4**
+* fix isAppStoreReceiptSandbox bug on iOS 6 devices and lower
+
 **2.2.3**
 * fixed bug for client timestamp handling and session length in certain edge cases
 
