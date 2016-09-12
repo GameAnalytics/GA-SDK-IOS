@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/gameanalytics"
 
   s.source           = { :git => "https://github.com/GameAnalytics/GA-SDK-IOS.git", :tag => "#{s.version}" }
-  s.source_files    = "GameAnalytics.framework/**"
 
+  s.source_files    = "GameAnalytics.framework/**/*.{h,m}"
   s.preserve_paths      = "GameAnalytics.framework"
   s.public_header_files = "GameAnalytics.framework/**/*.h"
   s.frameworks = 'AdSupport', 'SystemConfiguration'
