@@ -11,8 +11,12 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 
 Changelog
 ---------
+<!--(CHANGELOG_TOP)-->
+**2.2.6**
+* possible to set custom dimensions before initialise
+
 **2.2.5**
-* fixed user_id tracking for iOS 10 
+* fixed user_id tracking for iOS 10
 
 **2.2.4**
 * fix isAppStoreReceiptSandbox bug on iOS 6 devices and lower
@@ -68,4 +72,3 @@ Changelog
 * validated business event
 * resource event
 * custom dimensions
-
