@@ -12,6 +12,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.7**
+* added bundle_id, app version and app build tracking
+
 **2.2.6**
 * possible to set custom dimensions before initialise
 
