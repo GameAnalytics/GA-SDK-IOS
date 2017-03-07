@@ -12,6 +12,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.8**
+* version validator updated with gamemaker
+
 **2.2.7**
 * added bundle_id, app version and app build tracking
 
