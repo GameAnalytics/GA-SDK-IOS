@@ -6,7 +6,7 @@ GameAnalytics native iOS SDK.
 Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 
 > :information_source:
-> Requirements:<br/>
+> Requirements: 
 > **iOS:** iOS 6.x and up
 
 Changelog
