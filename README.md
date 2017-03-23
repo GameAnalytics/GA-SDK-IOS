@@ -13,6 +13,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.10**
+* bug fix for end session when using manual session handling
+
 **2.2.9**
 * session length precision improvement
 
