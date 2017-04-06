@@ -13,6 +13,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.11**
+* prevent session_num and transaction_num from resetting if app is killed
+
 **2.2.10**
 * bug fix for end session when using manual session handling
 
