@@ -8,7 +8,10 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 > :information_source:
 > Requirements: 
 > 
-> **iOS:** iOS 6.x and up
+> **iOS:** iOS 6.x and up   
+>   
+> **Build size:**   
+> Note that download size differ from the actual build size as it includes several architectures inside it. The SDK build size is only around **242Kb** (armv7) / **259Kb** (armv8).
 
 Changelog
 ---------
