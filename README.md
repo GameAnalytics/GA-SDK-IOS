@@ -1,3 +1,6 @@
+[![CocoaPods](https://img.shields.io/cocoapods/v/GA-SDK-IOS.svg)](https://cocoapods.org/pods/GA-SDK-IOS)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/AFNetworking.svg?label=pods%20downloads)](https://cocoapods.org/pods/GA-SDK-IOS)
+
 GA-SDK-IOS
 ==========
 
