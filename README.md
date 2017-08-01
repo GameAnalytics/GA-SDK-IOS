@@ -1,4 +1,3 @@
-[![Github All Releases](https://img.shields.io/github/downloads/GameAnalytics/GA-SDK-IOS/total.svg?label=git%20downloads)](https://github.com/GameAnalytics/GA-SDK-IOS)
 [![CocoaPods](https://img.shields.io/cocoapods/v/GA-SDK-IOS.svg)](https://cocoapods.org/pods/GA-SDK-IOS)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/GA-SDK-IOS.svg?label=pod%20downloads)](https://cocoapods.org/pods/GA-SDK-IOS)
 
