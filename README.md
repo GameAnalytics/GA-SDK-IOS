@@ -19,6 +19,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.12**
+* added 'nativescript' value to version validator
+
 **2.2.11**
 * prevent session_num and transaction_num from resetting if app is killed
 
