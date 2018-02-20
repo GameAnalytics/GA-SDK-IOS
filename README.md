@@ -19,6 +19,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.13**
+* 'install' field added to session start events when called for the first time
+
 **2.2.12**
 * added 'nativescript' value to version validator
 
