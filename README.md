@@ -19,6 +19,9 @@ Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.16**
+* added 'construct' to version validator
+
 **2.2.15**
 * exposed configureSdkVersion in framework header
 
