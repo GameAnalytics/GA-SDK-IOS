@@ -6,7 +6,7 @@ GA-SDK-IOS
 
 GameAnalytics native iOS SDK.
 
-Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
+Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 
 > :information_source:
 > Requirements: 
