@@ -19,6 +19,10 @@ Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.17**
+* fixed not allowing to add events when session is not started
+* fixed session length bug
+
 **2.2.16**
 * added 'construct' to version validator
 
