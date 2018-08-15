@@ -58,6 +58,13 @@ typedef enum GAErrorSeverity : NSInteger {
     GAErrorSeverityCritical = 5
 } GAErrorSeverity;
 
+//Similar to ICommandCenterListener in the GameAnalytics Android library
+@protocol GACommandCenterDelegate <NSObject>
+@optional
+- (void) onCommandCenterUpdated; // Updated everytime when configurations are added
+@end
+
+
 
 @class GameAnalytics;
 
@@ -318,7 +325,6 @@ typedef enum GAErrorSeverity : NSInteger {
                          cartType:(NSString *)cartType
                           receipt:(NSString *)receipt;
 
-
 /*!
  @method
 
@@ -346,7 +352,6 @@ typedef enum GAErrorSeverity : NSInteger {
                             cartType:(NSString *)cartType
                     autoFetchReceipt:(BOOL)autoFetchReceipt;
 
-
 /*!
  @method
  
@@ -372,7 +377,6 @@ typedef enum GAErrorSeverity : NSInteger {
                               amount:(NSNumber *)amount
                             itemType:(NSString *)itemType
                               itemId:(NSString *)itemId;
-
 
 /*!
  @method
@@ -474,6 +478,69 @@ typedef enum GAErrorSeverity : NSInteger {
 + (void)addErrorEventWithSeverity:(GAErrorSeverity)severity
                           message:(NSString *)message;
 
+/*!
+ @method
+ 
+ @abstract Get command center value as string
+ 
+ @param key
+ The key declared in the webtool
+ 
+ @availability Available since (TBD)
+ 
+ @attribute Note! This method cannot be called before initialize method has been triggered
+ */
++ (NSString *)getCommandCenterValueAsString:(NSString*) key;
+
+
+/*!
+ @method
+ 
+ @abstract Get command center value as string
+ 
+ @param key
+ The key declared in the webtool
+ 
+ @param defaultValue
+ Fallback default value for when the method does not find a value under the specified key
+ 
+ @availability Available since (TBD)
+ 
+ @attribute Note! This method cannot be called before initialize method has been triggered
+ */
++ (NSString *) getCommandCenterValueAsString:(NSString *) key
+                                defaultValue:(NSString *)defaultValue;
+
+/*!
+ @method
+ 
+ @abstract Get command center configurations
+ 
+ @availability Available since (TBD)
+ 
+ @attribute For internal use.
+ */
++ (NSString *) getCommandCenterConfigurations;
+
+/*!
+ @method
+ 
+ @abstract Use this to set the delegate for the Command Center to retreive information about the status of loading configurations
+ 
+ @availability Available since (TBD)
+ */
++ (void) setCommandCenterDelegate:(id)newDelegate;
+
+/*!
+ @method
+ 
+ @abstract Call for checking if command center values are loaded and ready
+ 
+ @availability Available since (TBD)
+ 
+ @attribute Note! This method should not be called before initialize method has been triggered
+ */
++ (BOOL) isCommandCenterReady;
 
 /*!
  @method

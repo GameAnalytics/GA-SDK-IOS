@@ -19,6 +19,10 @@ Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**3.0.0**
+* added command center functionality
+* fixed possible crash bug
+
 **2.2.18**
 * added custom dimensions to design and error events
 
