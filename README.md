@@ -19,6 +19,9 @@ Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**3.0.1**
+* small fixes to event annotations
+
 **3.0.0**
 * added command center functionality
 * fixed possible crash bug
