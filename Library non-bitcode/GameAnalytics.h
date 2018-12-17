@@ -586,6 +586,20 @@ typedef enum GAErrorSeverity : NSInteger {
  */
 + (void)setEnabledManualSessionHandling:(BOOL)flag;
 
+/*!
+ @method
+ 
+ @abstract Enable error reporting.
+ When enabled this will automatic send error events for uncaught exceptions.
+ 
+ @param flag
+ Enable or disable error reporting.
+ 
+ @availability Available since 3.1.0
+ 
+ */
++ (void)setEnabledErrorReporting:(BOOL)flag;
+
 
 /*!
  @method

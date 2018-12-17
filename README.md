@@ -19,6 +19,9 @@ Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**3.1.0**
+* added automatic error reporting
+
 **3.0.3**
 * fixed business event validation
 
