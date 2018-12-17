@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'AdSupport', 'SystemConfiguration'
   s.vendored_frameworks = 'GameAnalytics.framework'
 
-  s.library = 'z', 'sqlite3'
+  s.library = 'z', 'sqlite3', 'c++'
 
   s.platform = :ios, '6.0'
   s.requires_arc = true
@@ -27,4 +27,3 @@ Pod::Spec.new do |s|
     LICENSE
   }
 end
-
