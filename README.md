@@ -19,6 +19,9 @@ Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**3.1.2**
+* error reporting fixes
+
 **3.1.1**
 * added limit of automatic error to send
 
