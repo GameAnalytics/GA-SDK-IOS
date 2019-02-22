@@ -8,6 +8,8 @@ GameAnalytics native iOS SDK.
 
 Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 
+If you have any issues or feedback regarding the SDK, please contact our friendly support team [here](https://gameanalytics.com/contact).
+
 > :information_source:
 > Requirements: 
 > 
