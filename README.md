@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**3.2.1**
+* added toggle warning log method
+
 **3.2.0**
 * added enable/disable event submission function
 
