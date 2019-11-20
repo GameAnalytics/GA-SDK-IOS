@@ -21,6 +21,11 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.0.0**
+* command center is now called remote configs
+* A/B testing support added
+* new ad event added
+
 **3.2.1**
 * added toggle warning log method
 
