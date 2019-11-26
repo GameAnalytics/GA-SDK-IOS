@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.0.4**
+* small remote configs fix
+
 **4.0.3**
 * fix to validator
 
