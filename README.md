@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.0.5**
+* remote configs fixes
+
 **4.0.4**
 * small remote configs fix
 
