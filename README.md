@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.0.7**
+* A/B testing fix
+
 **4.0.6**
 * fixed getRemoteConfigsValueAsString bug
 

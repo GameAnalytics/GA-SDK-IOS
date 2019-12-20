@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GA-SDK-IOS"
-  s.version          = "4.0.6"
+  s.version          = "4.0.7"
   s.homepage         = "https://github.com/GameAnalytics/GA-SDK-IOS"
   s.author           = { "GameAnalytics" => "sdk@gameanalytics.com" }
   s.summary          = "GameAnalytics SDK for iOS"
