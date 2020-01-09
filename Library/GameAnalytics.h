@@ -298,6 +298,25 @@ typedef enum GAAdError : NSInteger {
 /*!
  @method
 
+ @abstract Enable auto detect of app version to use for build field
+
+ @discussion <i>Example usage:</i>
+ <pre><code>
+ [GameAnalytics configureAutoDetectAppVersion:YES];
+ </code></pre>
+
+ @param flag
+ (String)
+
+ @availability Available since 4.1.0
+
+ @attribute Note! This method must be called before initializing the SDK
+ */
++ (void)configureAutoDetectAppVersion:(BOOL)flag;
+
+/*!
+ @method
+
  @abstract Configure the game key and secret key before initializing. Used by certain frameworks (like Frabric.io) needing to set the keys during configure phase.
 
  @discussion
