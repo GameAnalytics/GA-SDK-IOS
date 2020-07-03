@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.2.2**
+* made AppTrackingTransparency framework optional
+
 **4.2.1**
 * added godot to version validator
 * switched to use AppTrackingTransparency framework for IDFA tracking to be iOS 14 ready
