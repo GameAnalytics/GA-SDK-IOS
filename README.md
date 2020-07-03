@@ -23,6 +23,8 @@ Changelog
 <!--(CHANGELOG_TOP)-->
 **4.2.1**
 * added godot to version validator
+* switched to use AppTrackingTransparency framework for IDFA tracking to be iOS 14 ready
+* **OBS:** Need to link with AppTrackingTransparency.framework when compiling and need to use XCode 14
 
 **4.2.0**
 * added new impression event, see documentation page for more info
