@@ -13,10 +13,12 @@ Pod::Spec.new do |s|
   s.public_header_files = "GameAnalytics.framework/**/*.h"
   s.frameworks = 'AdSupport', 'SystemConfiguration'
   s.vendored_frameworks = 'GameAnalytics.framework'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.library = 'z', 'sqlite3', 'c++'
 
-  s.platform = :ios, '6.0'
+  s.platform = :ios, '9.0'
   s.requires_arc = true
 
   s.license  = {
