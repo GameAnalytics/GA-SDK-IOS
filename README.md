@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.4.0**
+* added ad network version for impression events
+
 **4.3.1**
 * updated user identifier flow
 
