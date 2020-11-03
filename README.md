@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.4.1**
+* added check if running from testflight
+
 **4.4.0**
 * added ad network version for impression events
 
