@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.4.6**
+* removed memory info from automatic crash reports
+
 **4.4.5**
 * switched back to old way of checking ios version at runtime
 
