@@ -34,7 +34,7 @@ Changelog
 * corrected ad event annotation
 
 **4.4.3**
-* updated validator for impression events
+* updated client ts validator
 
 **4.4.2**
 * idfa and idfv will be set to empty when using the SDK on testflight builds
