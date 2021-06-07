@@ -1,5 +1,4 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/GA-SDK-IOS.svg)](https://cocoapods.org/pods/GA-SDK-IOS)
-[![CocoaPods](https://img.shields.io/cocoapods/dt/GA-SDK-IOS.svg?label=pod%20downloads)](https://cocoapods.org/pods/GA-SDK-IOS)
 
 GA-SDK-IOS
 ==========
@@ -13,14 +12,17 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 > :information_source:
 > Requirements:
 >
-> **iOS:** iOS 6.x and up   
->   
-> **Build size:**   
+> **iOS:** iOS 6.x and up
+>
+> **Build size:**
 > Note that download size differ from the actual build size as it includes several architectures inside it. The SDK build size is only around **242Kb** (armv7) / **259Kb** (armv8).
 
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.4.12**
+* added missing architectures of the libraries
+
 **4.4.11**
 * fixed crash bug
 
