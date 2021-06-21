@@ -20,6 +20,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.4.15**
+* small correction
+
 **4.4.14**
 * it should now be possible to not show idfa consent dialog if you don't have any third party code that doesn't need idfa
 
