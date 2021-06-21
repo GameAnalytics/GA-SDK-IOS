@@ -24,7 +24,7 @@ Changelog
 * small correction
 
 **4.4.14**
-* it should now be possible to not show idfa consent dialog if you don't have any third party code that doesn't need idfa
+* it should now be possible to not show idfa consent dialog if you don't have any third party code that needs to use idfa
 
 **4.4.13**
 * added ios_testflight to events coming from testflight builds
