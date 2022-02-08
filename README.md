@@ -20,6 +20,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.6.4**
+* changed event uuid field name
+
 **4.6.3**
 * added event uuid to events sents
 
