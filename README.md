@@ -20,6 +20,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.6.11**
+* fixed pod release
+
 **4.6.10**
 * switched back to static linked frameworks in pod release
 
