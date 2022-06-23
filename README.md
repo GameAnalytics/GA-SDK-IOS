@@ -24,10 +24,6 @@ Changelog
 * Added Health event
 * Includes FPS data measurement automatically sent at the end of the session
 
-**4.7.0**
-* Added Health event
-* Includes FPS data measurement automatically sent at the end of the session
-
 **4.6.11**
 * fixed pod release
 
