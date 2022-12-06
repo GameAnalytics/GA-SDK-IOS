@@ -20,6 +20,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.7.2**
+* Temporary removal of the health event until the new health event ingestion is ready (old version was unstable in rare cases)
+
 **4.7.1**
 * fixed session number for the init event
 
