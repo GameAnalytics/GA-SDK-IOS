@@ -284,6 +284,9 @@ typedef enum GAAdError : NSInteger {
  */
 + (void)configureUserId:(NSString *)userId;
 
+// returns the current user id if GameAnalytics has been initialized
++ (NSString*) getUserId;
+
 
 
 /*!
