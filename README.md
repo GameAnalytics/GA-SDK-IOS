@@ -20,9 +20,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
-**4.7.3**
-* new fps health event
-* improved internal error reporting
+**4.8.0**
+* deprecated support for armv7 and i386
+* added new fps health event
 
 **4.7.2**
 * Temporary removal of FPS tracking due to rare issues observed. FPS tracking will be reintroduced in the future once the cause is identified and fixed.
