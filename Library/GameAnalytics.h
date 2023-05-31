@@ -112,7 +112,8 @@ typedef enum GAAdType : NSInteger {
     GAAdTypePlayable = 3,
     GAAdTypeInterstitial = 4,
     GAAdTypeOfferWall = 5,
-    GAAdTypeBanner = 6
+    GAAdTypeBanner = 6,
+    GAAdTypeAppOpen = 7
 } GAAdType;
 
 /*!
@@ -287,6 +288,11 @@ typedef enum GAAdError : NSInteger {
 // returns the current user id if GameAnalytics has been initialized
 + (NSString*) getUserId;
 
+/*
+ * set this as true if you do not want idfv to be used
+ * as an user id (a random id will be generated instead)
+ */
++ (void) useRandomizedId:(Boolean)value;
 
 
 /*!
@@ -1681,6 +1687,21 @@ typedef enum GAAdError : NSInteger {
 
  */
 + (void)setEnabledEventSubmission:(BOOL)flag;
+
+
+/*!
+ @method
+
+ @abstract Enable/disable event submission.
+ When enabled this will allow events to be sent.
+
+ @param doCache enable event local caching if submission is disabled
+ Enable or disable event submission.
+ 
+ @param doSend send events to the server, if this flag is set, caching will also be set to true
+
+ */
++ (void)setEnabledEventSubmission:(BOOL)doSend doCacheLocally:(BOOL)doCache;
 
 /*!
  @method

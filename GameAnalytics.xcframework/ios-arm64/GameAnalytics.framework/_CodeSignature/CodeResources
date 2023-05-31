@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/GameAnalytics.h</key>
 		<data>
-		F1Hh9aHz0osbERQjihQ3cev64Ig=
+		saRcevWXd9DeJ+aB2JjdbhCpbFc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,11 +23,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F1Hh9aHz0osbERQjihQ3cev64Ig=
+			saRcevWXd9DeJ+aB2JjdbhCpbFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			w2q0euNa3YEKMjEAvF+yKVebW/rE62BBLsN12Ye0Nok=
+			6xG6JL/J5yKpA21jxSppdS3NfnqiWDSW+Ko0aIbhARg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

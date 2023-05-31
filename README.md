@@ -20,6 +20,10 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.8.1**
+* added optional local event caching for disabled submission
+* support for app open ads
+
 **4.8.0**
 * deprecated support for armv7 and i386
 * added new fps health event
