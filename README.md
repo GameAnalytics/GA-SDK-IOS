@@ -20,6 +20,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.8.2**
+* fixed a bug where wwan was not detected correctly
+
 **4.8.1**
 * added optional local event caching for disabled submission
 * support for app open ads
