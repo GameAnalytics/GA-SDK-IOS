@@ -20,6 +20,10 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.8.3**
+* added functionality to retrieve the remote configs as a json
+* increased currency limit to 50 from 20
+
 **4.8.2**
 * fixed a bug where wwan was not detected correctly
 

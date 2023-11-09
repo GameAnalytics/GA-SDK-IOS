@@ -1568,6 +1568,18 @@ typedef enum GAAdError : NSInteger {
 /*!
  @method
 
+ @abstract Get remote configs configurations as a valid json
+
+ @availability Available since (TBD)
+
+ @attribute For internal use.
+ */
++ (NSString *) getRemoteConfigsContentAsJSON;
+
+
+/*!
+ @method
+
  @abstract Use this to set the delegate for the Remote Configs to retreive information about the status of loading configurations
 
  @availability Available since (TBD)
