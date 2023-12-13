@@ -285,8 +285,27 @@ typedef enum GAAdError : NSInteger {
  */
 + (void)configureUserId:(NSString *)userId;
 
+/*!
+ @method
+
+ @abstract Set an additional optional user identifying the user. Will be added to every event.
+ This does not influence any GA configuration (unlike the user id) and can be set at any time
+
+ @discussion <i>Example usage:</i>
+ <pre><code>
+ [GameAnalytics configureExternalUserId:@"24566"];
+ </code></pre>
+
+ @param userId
+ (String max length=64)
+ */
++ (void)configureExternalUserId:(NSString *)userId;
+
 // returns the current user id if GameAnalytics has been initialized
 + (NSString*) getUserId;
+
+// returns the current external user id (if any)
++ (NSString*) getExternalUserId;
 
 /*
  * set this as true if you do not want idfv to be used
@@ -1798,6 +1817,45 @@ typedef enum GAAdError : NSInteger {
  Custom event fields to use as global ones
  */
 + (void)setGlobalCustomEventFields:(NSDictionary *)customFields;
+
+
+/*!
+ @method
+ 
+ @abstract enable the SDK init event to automatically track the boot time (time from application launch to the GameAnalytics SDK initialization).
+ @param value enable the event
+ 
+ */
++(void)enableSDKInitEvent:(Boolean)value;
+
+/*!
+ @method
+ 
+ @abstract Enable FPS sampling across the entire session to ultimately send an FPS histogram via the Session Performance Event.
+ @param value enable fps data collection
+ 
+ */
++(void)enableFpsHistogram:(Boolean)value;
+
+/*!
+ @method
+ 
+ @abstract Enable memory usage sampling across the entire session to ultimately send a memory usage histogram via the Session Performance Event.
+ @param value enable memory data collection
+ */
++(void)enableMemoryHistogram:(Boolean)value;
+
+/*!
+ @method
+ 
+ @abstract (EXPERIMENTAL) enable discovery of device hardware information like,
+ cpu model, number of cpu cores, GPU model, chipset/hardware (if available).
+ these data points are added as properties to existing health
+ events (error, SDK init, session performance) if those are enabled.
+ 
+ @param value enable hardware info collection
+ */
++(void)enableHealthHardwareInfo:(Boolean)value;
 
 /*!
  @method
