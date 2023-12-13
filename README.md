@@ -21,7 +21,8 @@ Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
 **4.9.0-beta**
-* added optional session performance metrics collection:added optional app boot-time metric collection
+* added optional session performance metrics collection
+* added optional app boot-time metric collection
 
 **4.8.3**
 * added functionality to retrieve the remote configs as a json
