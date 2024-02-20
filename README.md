@@ -20,6 +20,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.9.0**
+* added optional session performance metrics collection:added optional app boot-time metric collection
+
 **4.9.0-beta**
 * added optional session performance metrics collection
 * added optional app boot-time metric collection
