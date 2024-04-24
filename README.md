@@ -20,6 +20,10 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.10.1**
+* consent status is now tracked correctly
+* bug fix for fps tracking
+
 **4.10.0**
 * added privacy manifest
 * fixed app boot time measurement
