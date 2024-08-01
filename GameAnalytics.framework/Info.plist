@@ -11,6 +11,6 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.gameanalytics.sdk.ios</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4.10.1</string>
+	<string>4.10.2</string>
 </dict>
 </plist>
