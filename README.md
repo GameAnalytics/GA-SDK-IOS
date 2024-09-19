@@ -20,6 +20,11 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.10.3**
+* added Support for Xcode 15.4
+* fixed crash at launch caused by va_list wrong usage
+* improved logging
+
 **4.10.2**
 * fixed a bug where error events would fail validation if the function name was too long
 
