@@ -20,6 +20,10 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.10.4**
+* update iOS Deployment Target to iOS 12
+* fixed issue with not allowing iOS Simulator for cocoapods installs
+
 **4.10.3**
 * added Support for Xcode 15.4
 * fixed crash at launch caused by va_list wrong usage
