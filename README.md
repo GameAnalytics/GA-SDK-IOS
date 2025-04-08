@@ -1,3 +1,4 @@
+[![SPM version](https://img.shields.io/github/v/release/GameAnalytics/GA-SDK-IOS.svg?label=SPM%20version)](https://github.com/GameAnalytics/GA-SDK-IOS/releases/latest)
 [![CocoaPods](https://img.shields.io/cocoapods/v/GA-SDK-IOS.svg)](https://cocoapods.org/pods/GA-SDK-IOS)
 
 GA-SDK-IOS
