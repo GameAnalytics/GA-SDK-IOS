@@ -20,6 +20,11 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.11.0**
+* add privacy manifest domain for tracking
+* add Xcode 16 support
+* add SPM support
+
 **4.10.4**
 * update iOS Deployment Target to iOS 12
 * fixed issue with not allowing iOS Simulator for cocoapods installs
