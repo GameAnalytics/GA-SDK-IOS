@@ -21,6 +21,9 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**4.11.1**
+* Improved user ID handling to ensure consistent user identification across game sessions
+
 **4.11.0**
 * add privacy manifest domain for tracking
 * add Xcode 16 support
