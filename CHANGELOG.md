@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.11.1]
+
+### Changed
+
+- Improved user ID handling to ensure consistent user identification across game sessions.
+
 ## [4.11.0]
 
 ### Added
