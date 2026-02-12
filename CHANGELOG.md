@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.1]
+
+### Fixed
+
+- Fixed remote configs with null id being skipped (affects A/B testing only).
+
 ## [5.0.0]
 
 ### Added
@@ -14,6 +20,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Improved internal user ID handling.
+- SDK now sends an error event in case of remote configs fetch failure.
 
 ## [4.11.1]
 
