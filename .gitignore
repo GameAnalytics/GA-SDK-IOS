@@ -1,2 +1,14 @@
-
+# CocoaPods. This SDK no longer publishes a pod: trunk goes permanently read-only on
+# 2 December 2026, and the last published pod was 5.0.1. Consumers use Swift Package
+# Manager, the framework, or the static lib in Library/.
 *.podspec
+
+# macOS Finder metadata. A stray .DS_Store inside a bundle changes its checksum for no
+# reason, and three of them once shipped inside the 5.0.1 release asset.
+.DS_Store
+
+# Release assets are attached to the GitHub Release, never committed.
+*.zip
+
+# SwiftPM build products, if anyone resolves something in here.
+.build/
