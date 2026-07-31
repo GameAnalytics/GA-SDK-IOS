@@ -311,15 +311,6 @@ typedef enum GAAdError : NSInteger {
 // returns the current external user id (if any)
 + (NSString*) getExternalUserId;
 
-/* @IF WRAPPER */
-
-/*
- Used ONLY by GameAnalytics wrapper SDK's (for example Unity).
- Never call this manually!
- */
-+ (void)configureSdkVersion:(NSString *)wrapperSdkVersion;
-/* @ENDIF WRAPPER */
-
 /*!
  @method
 

@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.2]
+
+### Added
+
+- `GameAnalyticsWrapper.h`, shipped in every xcframework slice and in every `dist/` drop. It declares `configureSdkVersion:`, the API used only by GameAnalytics wrapper SDKs (Unity, Unreal, Flutter, GameMaker). Application code should not import it.
+
+### Changed
+
+- Binaries no longer embed bitcode (removed in Xcode 16), making the XCFramework download ~77% smaller with no change to supported architectures.
+- `configureSdkVersion:` is no longer declared in `GameAnalytics.h`. Wrapper SDKs should import `GameAnalyticsWrapper.h`; the implementation is unchanged, so existing compiled integrations keep working.
+
+### Removed
+
+- CocoaPods support (trunk becomes read-only on 2 December 2026) - use Swift Package Manager instead. Previously published versions remain installable.
+
+### Fixed
+
+- Fixed an extra character in the remote configs request URL that caused the configs hash to never match server side.
+
 ## [5.0.1]
 
 ### Fixed
