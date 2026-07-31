@@ -311,7 +311,6 @@ typedef enum GAAdError : NSInteger {
 // returns the current external user id (if any)
 + (NSString*) getExternalUserId;
 
-
 /*!
  @method
 
