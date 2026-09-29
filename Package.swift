@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GameAnalytics",
-            url: "https://github.com/GameAnalytics/GA-SDK-IOS/releases/download/5.0.2/GameAnalytics.xcframework.zip",
-            checksum: "2cbd484f0d89d5d4fa33ccd30b4d8908025d062c942ea44443e999a92d3bc5cf"
+            url: "https://github.com/GameAnalytics/GA-SDK-IOS/releases/download/5.1.0/GameAnalytics.xcframework.zip",
+            checksum: "26e996a384e435f23defd13c7fe457264416d58d98ecba5f9836a94855b4e0e4"
         )
     ]
 )

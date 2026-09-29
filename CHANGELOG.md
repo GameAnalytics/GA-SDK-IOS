@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.1.0]
+
+### Added
+
+- `addBusinessEventWithCurrency:amount:itemType:itemId:cartType:transactionId:` plus `customFields:` and `mergeFields:` variants. Pass `SKPaymentTransaction.transactionIdentifier` (StoreKit 1) or `String(Transaction.id)` (StoreKit 2) and the purchase is validated server side through Apple's App Store Server API instead of the deprecated `verifyReceipt`. The event is sent with `receipt_info.transaction_id` and `receipt_info.store = "apple_app_store"`; a nil or empty transaction id drops the event. The SDK does not import StoreKit and the existing receipt based overloads are unchanged.
+
+### Fixed
+
+- Fixed a crash (`NSInvalidArgumentException`) when the init request was rejected (e.g. HTTP 401 for invalid keys) and the SDK later tried to update the session time without an active session.
+- The SDK init event is no longer stored with an empty session id when the init request fails.
+
 ## [5.0.2]
 
 ### Added
